@@ -1,0 +1,23 @@
+pt-BR:
+  activerecord:
+    attributes:
+      user:
+        name: 'Nome'
+        email: 'Email'
+        password: 'Senha'
+        password_confirmation: 'Confirmação da Senha'
+      bim_calculation_history:
+        height: 'Altura'
+        width: 'Peso'
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: 'não pode ser nulo.'
+            email:
+              blank: 'não pode ser nulo.'
+            password:
+              blank: 'não pode ser nulo.'
+            password_confirmation:
+              confirmation: 'é diferente da senha informada'
